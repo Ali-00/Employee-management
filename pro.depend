@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1599408748 source:e:\ali\4th semester\dsa lab\project changes\pro\main.cpp
+	<iostream>
+	<fstream>
+	<cstdio>
+	<sstream>
+	<algorithm>
+	<string>
+	<cstring>
+
