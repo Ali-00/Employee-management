@@ -6,5 +6,5 @@ B-Tree is a self-balancing search tree. In most of the other self-balancing sear
 Working:
 Let’s understand the working of B-Tree through insertion and deletion operations. There are two cases associated with the insertion of a key in B-Tree. These are, first that node is not full, and secondly, the node is already full. Insertion of a key happens in the node if it’s a leaf node that is not full. In case the node is full, then the node is split at the median into two nodes, the level remaining the same, and the median element is upped by a level.
 
-Conclusion
+Conclusion:
 B-Tree is one of those data structures that efficiently assist in data operations including insertion, deletion, and traversal. The usefulness of data structure as this is evident not in small applications but is impactful in real-world situations that involve very large datasets.
