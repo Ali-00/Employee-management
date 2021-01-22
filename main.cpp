@@ -233,13 +233,6 @@ void avl_tree::preorder(avl *t) {
       preorder(t->l);
       preorder(t->r);
 }
-void avl_tree::postorder(avl *t) {
-   if (t == NULL)
-      return;
-      postorder(t ->l);
-      postorder(t ->r);
-      cout << t->d << ": Name: " << t->name << ": Designation: " << t->desg << ": Pay: " << t->pay << ": Email: " << t->email<< endl;
-}
 int main() {
    int c, i,p,j;
    char n[15],d[15],e[20];
