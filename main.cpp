@@ -226,6 +226,13 @@ void avl_tree::inorder(avl *t) {
       cout << t->d << ": Name: " << t->name << ": Designation: " << t->desg << ": Pay: " << t->pay << ": Email: " << t->email<< endl;
       inorder(t->r);
 }
+void avl_tree::preorder(avl *t) {
+   if (t == NULL)
+      return;
+      cout << t->d << ": Name: " << t->name << ": Designation: " << t->desg << ": Pay: " << t->pay << ": Email: " << t->email<< endl;
+      preorder(t->l);
+      preorder(t->r);
+}
 
 int main() {
    int c, i,p,j;
